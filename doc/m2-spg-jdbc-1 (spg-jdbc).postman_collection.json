@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "1a4af8b4-e4a6-49ca-9db4-aa712d7fe962",
+		"name": "m2-spg-jdbc-1 (spg-jdbc)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1 products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/kd1a_spg_jdbc_msl_stp/ecz/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"kd1a_spg_jdbc_msl_stp",
+						"ecz",
+						"products"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
